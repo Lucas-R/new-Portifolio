@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #F27405;
+    --color-black: #0D0D0D;
+    --color-white: #FFFFFF;
+    --color-dark: #0D0D0D;
+    --color-light: #FFFFFF;
+
+    --font-outfit: "Outfit", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+    @apply bg-light font-outfit text-sm md:text-base;
+}
