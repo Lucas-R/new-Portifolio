@@ -16,5 +16,5 @@
 }
 
 body {
-    @apply bg-light font-outfit text-sm md:text-base;
+    @apply bg-light font-outfit text-sm select-none md:text-base;
 }

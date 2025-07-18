@@ -21,9 +21,9 @@ interface WrapperProps extends React.HTMLAttributes<HTMLButtonElement>, VariantP
     icon?: React.ReactNode
 }
 
-export default function Wrapper({ children, className, thema }: WrapperProps) {
+export default function Wrapper({ children, className, thema, ...props }: WrapperProps) {
     return (
-        <button className={wrapper({ thema, class: className })}>
+        <button className={wrapper({ thema, class: className })} {...props}>
             {children}
         </button>
     )

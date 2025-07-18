@@ -1,8 +1,8 @@
-import Container from "@components/layout/Container"
 import { ArrowDown, ArrowRight } from "lucide-react"
+import useGithub from "@hooks/useGithub"
+import Container from "@components/layout/Container"
 import Button from "@components/ui/Button"
 import Title from "@components/ui/Title"
-import useGithub from "@hooks/useGithub"
 
 function App() {
   const { data } = useGithub({ url: "/users/Lucas-R" });
